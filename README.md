@@ -1,6 +1,12 @@
-# Vividus Starter
+# Vividus Home Task Project
 
-The purpose of this repository is to help users start creating automated tests using Vividus.
+The repository contains tests in /src/main/resources folder.
+Folder steps contains file with composite steps used in test scenario TrelloBoardCreation.story
+In story.web folder there are created tests:
+
+1. TrelloBoardCreation.story (story for creating trello board for the signed in user)
+2. TrelloSignUp.story (stopped on a step when captcha appears)
+3. verifyingTrelloProfile.story (story to sign in and verify trello user profile)
 
 # How to run the existing tests
 1. Clone the repository: `git clone --recursive https://github.com/vividus-framework/vividus-starter.git`
